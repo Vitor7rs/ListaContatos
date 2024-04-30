@@ -71,11 +71,11 @@ th {
 	background-color: #f0f0f0;
 	color: #333333;
 	font-weight: bold;
-	width: 50%; /* Defina a largura das células de título */
+	width: 50%;
 }
 
 td {
-	width: 50%; /* Defina a largura das células de dados igual às células de título */
+	width: 50%;
 }
 
 .table-header {
