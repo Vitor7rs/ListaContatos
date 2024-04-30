@@ -4,8 +4,29 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="src/style/reset.css" />
-		<link rel="stylesheet" href="src/style/index.css" />
-		<title>Agenda Contatos</title>
+		<link rel="stylesheet" href="src/style/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+		/>
+		<title>Lista de Contatos</title>
 	</head>
-	<body></body>
+	<body>
+		<div class="container">
+			<h1 class="title">Lista de Contatos</h1>
+			<form id="contactForm">
+				<input type="text" id="nameInput" placeholder="Nome" required />
+				<input type="tel" id="phoneInput" placeholder="Telefone" required />
+				<button type="submit" onclick="cadastrarContato()">Cadastrar</button>
+			</form>
+			<table>
+				<tr>
+					<th class="table-header">Nome</th>
+					<th class="table-header">Telefone</th>
+				</tr>
+			</table>
+		</div>
+
+		<script src="src/scripts/index.js"></script>
+	</body>
 </html>
